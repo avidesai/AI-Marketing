@@ -26,11 +26,47 @@ body {
 
 /* Hero section */
 .hero-section {
-  background-image: url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80');
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1633538475696-a93e30810e09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 0 20px;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  z-index: 0;
+}
+
+.hero-text-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-text-container h1 {
   color: #ffffff;
+  font-size: 44px;
+}
+
+.hero-text-container p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
 /* Features section */
@@ -40,6 +76,12 @@ body {
 
 /* Call-to-Action section */
 .cta-section {
-  background-color: #f0f2f5;
-  padding: 100px 0;
+  background-color: #e3e3e3;
+  padding: 100px 20px;
+  margin-bottom: 30px;
+}
+
+.cta-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
 }
