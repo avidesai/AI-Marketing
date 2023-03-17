@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Input, Typography } from 'antd';
-import { generateSocialMediaContent } from '../openai';
+import { generateSocialMediaContent } from '../api';
 
 const { Title } = Typography;
 
