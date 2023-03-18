@@ -1,5 +1,5 @@
 export async function generateSocialMediaContent(prompt) {
-    const response = await fetch('/generate-content', {
+    const response = await fetch('http://localhost:5001/generate-content', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
