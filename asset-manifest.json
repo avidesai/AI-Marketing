@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AI-Marketing/static/css/main.7ebf9d34.css",
+    "main.js": "/AI-Marketing/static/js/main.68b74256.js",
+    "index.html": "/AI-Marketing/index.html",
+    "main.7ebf9d34.css.map": "/AI-Marketing/static/css/main.7ebf9d34.css.map",
+    "main.68b74256.js.map": "/AI-Marketing/static/js/main.68b74256.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebf9d34.css",
+    "static/js/main.68b74256.js"
+  ]
+}
