@@ -12,7 +12,7 @@ const HomePage = () => {
       {/* Hero Section */}
         <section className="hero-section">
             <div className="hero-text-container">
-                <Title>AI Marketing App</Title>
+                <Title>AdGenius</Title>
                 <p>
                 Generate stunning marketing materials for your business using AI-powered content and designs.
                 </p>
